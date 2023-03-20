@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Landing pages Bootstrap</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-secondary-subtle">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="img/87.jpg" alt="Logo" width="50" height="35"
+                            class="d-inline-block align-text-top">Tech-Trans</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="knowledge.html">Knowledge Base</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap"> <i
+                                    class="fa-solid fa-right-to-bracket px-1"></i>Login</button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header mx-auto">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Customer
+                                                Login</h1>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control" id="recipient-name"
+                                                        placeholder="Username">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <input type="password" class="form-control" id="recipient-name"
+                                                        placeholder="Password">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <div class="row">
+                                                        <div class="col-lg-6 col-sm-12 d-grid gap-2 d-md-flex">
+                                                            <button type="button"
+                                                                class="btn btn-outline-info btn-sm">Login</button>
+                                                        </div>
+                                                        <div class="col-lg-6 col-sm-12">
+                                                            <a href="#">
+                                                                <p class="text-end text-primary">Forgot Password ?
+                                                                </p>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <p class="text-center text-uppercase">Or</p>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-sm-6 d-grid gap-2 d-md-flex mb-3">
+                                                        <button type="button" class="btn btn-primary"><i
+                                                                class="fa-brands fa-facebook px-1"></i>Facebook</button>
+                                                    </div>
+                                                    <div
+                                                        class="col-lg-6 col-sm-6 d-grid gap-2 d-md-flex justify-content-md-end mb-3">
+                                                        <button type="button" class="btn btn-danger me-md-2"><i
+                                                                class="fa-brands fa-google-plus px-1"></i>Google</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer mx-auto bg-secondary-subtle">
+                                            <p>Don't Have account <span><a href="#" class="text-primary">Create
+                                                        New</a></span></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- First article -->
+        <section class="container-fluid mx-auto bg-secondary pt-5 pb-5 text-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <h1>Knowledge Base</h1>
+                        <h6>Home / Pages / About</h6>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label"></label>
+                            <input type="search" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Search...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- text -->
+        <section class="container bg-secondary-subtle mt-5 pt-3 pb-3">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card mb-3">
+                        <div class="card-body bg-secondary-subtle">
+                            <a href="#">
+                                <h3>The Basics<span class="px-2 noir"><button type="button"
+                                            class="btn btn-outline-primary btn-sm">30</button></span></h3>
+                            </a>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Whats is Lorem Ipsum ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where does it come from ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where can I get some ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Why do we use it ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Lorem Ipsum is simply dummy text</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card mb-3">
+                        <div class="card-body bg-secondary-subtle">
+                            <a href="#">
+                                <h3>The Basics<span class="px-2 noir"><button type="button"
+                                            class="btn btn-outline-primary btn-sm">30</button></span></h3>
+                            </a>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Whats is Lorem Ipsum ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where does it come from ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where can I get some ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Why do we use it ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Lorem Ipsum is simply dummy text</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 small">
+                    <div class="card mb-3">
+                        <div class="card-body bg-secondary-subtle">
+                            <label for="customRange3" class="form-label">
+                                <h5 class="card-title">Category</h5>
+                            </label>
+                            <input type="range" class="form-range" min="3" max="5" step="0.5" id="customRange3">
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Creative</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Design</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Apps</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Android</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>App Store</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 pt-5">
+                    <div class="card mb-3">
+                        <div class="card-body bg-secondary-subtle">
+                            <a href="#">
+                                <h3>The Basics<span class="px-2 noir"><button type="button"
+                                            class="btn btn-outline-primary btn-sm">30</button></span></h3>
+                            </a>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Whats is Lorem Ipsum ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where does it come from ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where can I get some ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Why do we use it ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Lorem Ipsum is simply dummy text</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 pt-5">
+                    <div class="card mb-3">
+                        <div class="card-body bg-secondary-subtle">
+                            <a href="#">
+                                <h3>The Basics<span class="px-2 noir"><button type="button"
+                                            class="btn btn-outline-primary btn-sm">30</button></span></h3>
+                            </a>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Whats is Lorem Ipsum ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where does it come from ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where can I get some ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Why do we use it ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Lorem Ipsum is simply dummy text</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 small">
+                    <div class="card mb-3">
+                        <div class="card-body bg-secondary-subtle">
+                            <label for="customRange3" class="form-label pt-0">
+                                <h5 class="card-title">Popular Aritcle</h5>
+                            </label>
+                            <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+                            <p class="card-text">10 Feb, 2023</p>
+                            <p><a href="#">There are many variations of passages of Lorem Ipsum
+                                    available</a></p>
+                            <p class="card-text">13 Feb, 2023</p>
+                            <p><a href="#">There are many variations of passages of Lorem Ipsum
+                                    available</a></p>
+                            <p class="card-text">12 Feb, 2023</p>
+                            <p><a href="#">There are many variations of passages of Lorem Ipsum
+                                    available</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card mb-3">
+                        <div class="card-body bg-secondary-subtle">
+                            <a href="#">
+                                <h3>The Basics<span class="px-2 noir"><button type="button"
+                                            class="btn btn-outline-primary btn-sm">30</button></span></h3>
+                            </a>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Whats is Lorem Ipsum ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where does it come from ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where can I get some ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Why do we use it ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Lorem Ipsum is simply dummy text</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card mb-3">
+                        <div class="card-body bg-secondary-subtle">
+                            <a href="#">
+                                <h3>The Basics<span class="px-2 noir"><button type="button"
+                                            class="btn btn-outline-primary btn-sm">30</button></span></h3>
+                            </a>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Whats is Lorem Ipsum ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where does it come from ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where can I get some ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Why do we use it ?</a></p>
+                            <p><a href="#"><i class="fa-solid fa-file px-2"></i>Lorem Ipsum is simply dummy text</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="container-fluid mt-5 text-center bg-secondary-subtle">
+            <div class="pb-3 pt-3">
+                <a href="#">FAQ</a>
+                <a href="#">Terms</a>
+                <a href="#">Changelog</a>
+            </div>
+            <i class="fa-brands fa-facebook mx-2"></i><i class="fa-brands fa-twitter mx-2"></i><i
+                class="fa-brands fa-linkedin mx-2"></i><i class="fa-brands fa-youtube mx-2"></i><i
+                class="fa-brands fa-instagram mx-2"></i>
+            <p class="pt-3">Made by <a href="#" class="text-primary">Tatwerat</a> © 2020 AH Tickets Pty Ltd.</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>

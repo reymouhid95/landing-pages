@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Landing pages Bootstrap</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-secondary-subtle">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="img/87.jpg" alt="Logo" width="50" height="35"
+                            class="d-inline-block align-text-top">Tech-Trans</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="knowledge.html">Knowledge Base</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap"> <i
+                                    class="fa-solid fa-right-to-bracket px-1"></i>Login</button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header mx-auto">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Customer
+                                                Login</h1>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control" id="recipient-name"
+                                                        placeholder="Username">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <input type="password" class="form-control" id="recipient-name"
+                                                        placeholder="Password">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <div class="row">
+                                                        <div class="col-lg-6 col-sm-12 d-grid gap-2 d-md-flex">
+                                                            <button type="button"
+                                                                class="btn btn-outline-info btn-sm">Login</button>
+                                                        </div>
+                                                        <div class="col-lg-6 col-sm-12">
+                                                            <a href="#">
+                                                                <p class="text-end text-primary">Forgot Password ?
+                                                                </p>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <p class="text-center text-uppercase">Or</p>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-sm-6 d-grid gap-2 d-md-flex mb-3">
+                                                        <button type="button" class="btn btn-primary"><i
+                                                                class="fa-brands fa-facebook px-1"></i>Facebook</button>
+                                                    </div>
+                                                    <div
+                                                        class="col-lg-6 col-sm-6 d-grid gap-2 d-md-flex justify-content-md-end mb-3">
+                                                        <button type="button" class="btn btn-danger me-md-2"><i
+                                                                class="fa-brands fa-google-plus px-1"></i>Google</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer mx-auto bg-secondary-subtle">
+                                            <p>Don't Have account <span><a href="#" class="text-primary">Create
+                                                        New</a></span></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- First article -->
+        <section class="container-fluid text-center bg-secondary pt-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12">
+                        <h1 class="text-uppercase text-light">What can me help you with ?</h1>
+                        <div class="mb-3 col-6 mx-auto">
+                            <label for="exampleFormControlInput1" class="form-label"></label>
+                            <input type="search" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Search...">
+                        </div>
+                    </div>
+                </div>
+                <div class="row container mx-auto mt-5">
+                    <div class="col-lg-3 col-sm-6 mb-3">
+                        <a href="#">
+                            <div class="card card-in">
+                                <div class="card-body">
+                                    <ion-icon name="layers-outline"></ion-icon>
+                                    <h5 class="card-text">Knowledge Base</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-3">
+                        <a href="#">
+                            <div class="card card-in">
+                                <div class="card-body">
+                                    <ion-icon name="help-circle-outline"></ion-icon>
+                                    <h5 class="card-text">FAQ</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-3">
+                        <a href="#">
+                            <div class="card card-in">
+                                <div class="card-body">
+                                    <ion-icon name="card-outline"></ion-icon>
+                                    <h5 class="card-text">Register</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <a href="#">
+                            <div class="card card-in">
+                                <div class="card-body">
+                                    <ion-icon name="create-outline"></ion-icon>
+                                    <h5 class="card-text">New Ticket</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Second cards -->
+            <section class="container text-center mt-5">
+                <div class="pt-3 pb-3">
+                    <p class="text-light">We are the best</p>
+                    <h3 class="text-light">Manage Everything in One Place</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12 mb-3">
+                        <div class="card card-on">
+                            <div class="card-body">
+                                <ion-icon name="list-outline" class="ion" aria-hidden="true"></ion-icon>
+                                <h5 class="card-title">Instant Setup</h5>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry and has been the industry's standard dummy text.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 mb-3">
+                        <div class="card card-on">
+                            <div class="card-body">
+                                <ion-icon name="rocket-outline" class="ion" aria-hidden="true"></ion-icon>
+                                <h5 class="card-title">Fast Loading</h5>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry and has been industry's standard dummy text.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="card card-on">
+                            <div class="card-body">
+                                <ion-icon name="cash-outline" class="ion" aria-hidden="true"></ion-icon>
+                                <h5 class="card-title">Affordable Price</h5>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typeetting
+                                    industry and has been the industry's standard dummy text.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- text -->
+        <section class="container bg-secondary-subtle mt-5 mx-auto">
+            <div class="text-center">
+                <p class="text-primary pt-3">Knowledge Base</p>
+                <h3>Make Your Support</h3>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-sm-12 fil border">
+                    <a href="#">
+                        <h3>The Basics<span class="px-2 noir"><button type="button"
+                                    class="btn btn-outline-primary btn-sm">30</button></span></h3>
+                    </a>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Whats is Lorem Ipsum ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where does it come from ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where can I get some ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Why do we use it ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Lorem Ipsum is simply dummy text</a></p>
+                </div>
+                <div class="col-lg-4 col-sm-12 fil border">
+                    <a href="#">
+                        <h3>The Basics<span class="px-2 noir"><button type="button"
+                                    class="btn btn-outline-primary btn-sm">30</button></span></h3>
+                    </a>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Whats is Lorem Ipsum ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where does it come from ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where can I get some ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Why do we use it ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Lorem Ipsum is simply dummy text</a></p>
+                </div>
+                <div class="col-lg-4 col-sm-12 fil border">
+                    <a href="#">
+                        <h3>The Basics<span class="px-2 noir"><button type="button"
+                                    class="btn btn-outline-primary btn-sm">30</button></span></h3>
+                    </a>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Whats is Lorem Ipsum ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where does it come from ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where can I get some ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Why do we use it ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Lorem Ipsum is simply dummy text</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 fil border">
+                    <a href="#">
+                        <h3>The Basics<span class="px-2 noir"><button type="button"
+                                    class="btn btn-outline-primary btn-sm">30</button></span></h3>
+                    </a>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Whats is Lorem Ipsum ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where does it come from ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where can I get some ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Why do we use it ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Lorem Ipsum is simply dummy text</a></p>
+                </div>
+                <div class="col-lg-4 col-sm-12 fil border">
+                    <a href="#">
+                        <h3>The Basics<span class="px-2 noir"><button type="button"
+                                    class="btn btn-outline-primary btn-sm">30</button></span></h3>
+                    </a>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Whats is Lorem Ipsum ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where does it come from ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where can I get some ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Why do we use it ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Lorem Ipsum is simply dummy text</a></p>
+                </div>
+                <div class="col-lg-4 col-sm-12 fil border">
+                    <a href="#">
+                        <h3>The Basics<span class="px-2 noir"><button type="button"
+                                    class="btn btn-outline-primary btn-sm">30</button></span></h3>
+                    </a>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Whats is Lorem Ipsum ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where does it come from ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Where can I get some ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Why do we use it ?</a></p>
+                    <p><a href="#"><i class="fa-solid fa-file px-2"></i>Lorem Ipsum is simply dummy text</a></p>
+                </div>
+            </div>
+        </section>
+        <!-- Profil -->
+        <section class="container-fluid mt-5 text-center bg-secondary-subtle">
+            <p class="pt-3 text-primary">Our Team</p>
+            <h5 class="pb-3">Didn't Find Your Answer ?</h5>
+            <div class="row container mx-auto">
+                <div class="col-lg-2">
+                    <img src="img/88.png" class="img-fluid img-thumbnail rounded-circle" alt="">
+                    <h4>Amadou</h4>
+                    <p>Support</p>
+                </div>
+                <div class="col-lg-2">
+                    <img src="img/88.png" class="img-fluid img-thumbnail rounded-circle" alt="">
+                    <h5>Oury</h5>
+                    <p>Support</p>
+                </div>
+                <div class="col-lg-2">
+                    <img src="img/88.png" class="img-fluid img-thumbnail rounded-circle" alt="">
+                    <h5>Daouda</h5>
+                    <p>Design Engineer</p>
+                </div>
+                <div class="col-lg-2">
+                    <img src="img/88.png" class="img-fluid img-thumbnail rounded-circle" alt="">
+                    <h5>Kalika</h5>
+                    <p>Developer</p>
+                </div>
+                <div class="col-lg-2">
+                    <img src="img/88.png" class="img-fluid img-thumbnail rounded-circle" alt="">
+                    <h5>Christus</h5>
+                    <p>Developer</p>
+                </div>
+                <div class="col-lg-2">
+                    <img src="img/88.png" class="img-fluid img-thumbnail rounded-circle" alt="">
+                    <h5>Alkali</h5>
+                    <p>Support</p>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary btn-lg"><i class="fa-regular fa-comment px-1"></i>Start
+                Chat</button>
+            <!-- Carousels -->
+            <section class="pt-3 mt-5 bg-primary">
+                <div class="text-light pb-3">
+                    <p>Testimonial</p>
+                    <h3>Ours Clients Say</h3>
+                </div>
+                <div class="container text-start">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <div class="card d-block w-100 mb-3">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="img/88.png" class="img-fluid rounded" alt="...">
+                                        </div>
+                                        <div class="col-md-8 pt-5">
+                                            <div class="card-body">
+                                                <p class="card-text">Lorem Ipsum is simply dummy text of the
+                                                    printing
+                                                    and
+                                                    typesetting industry. Lorem Ipsum has been the industry's standard
+                                                    dummy
+                                                    text ever since the 1500...</p>
+                                                <div class="row pt-5">
+                                                    <div class="col-lg-6">
+                                                        <h5 class="card-title">Admin Account</h5>
+                                                        <button type="button"
+                                                            class="btn btn-secondary">Customer</button>
+                                                    </div>
+                                                    <div class="col-lg-6 text-end">
+                                                        <p class="card-text"><i class="fa-regular fa-clock px-1"></i>13
+                                                            February 2023</p>
+                                                        <i class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="card d-block w-100 mb-3">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="img/88.png" class="img-fluid rounded" alt="...">
+                                        </div>
+                                        <div class="col-md-8 pt-5">
+                                            <div class="card-body">
+                                                <p class="card-text">Lorem Ipsum is simply dummy text of the
+                                                    printing
+                                                    and
+                                                    typesetting industry. Lorem Ipsum has been the industry's standard
+                                                    dummy
+                                                    text ever since the 1500...</p>
+                                                <div class="row pt-5">
+                                                    <div class="col-lg-6">
+                                                        <h5 class="card-title">Admin Account</h5>
+                                                        <button type="button" class="btn btn-secondary">Guest</button>
+                                                    </div>
+                                                    <div class="col-lg-6 text-end">
+                                                        <p class="card-text"><i class="fa-regular fa-clock px-1"></i>13
+                                                            February 2023</p>
+                                                        <i class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card d-block w-100 mb-3">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="img/88.png" class="img-fluid rounded" alt="...">
+                                        </div>
+                                        <div class="col-md-8 pt-5">
+                                            <div class="card-body">
+                                                <p class="card-text">Lorem Ipsum is simply dummy text of the
+                                                    printing
+                                                    and
+                                                    typesetting industry. Lorem Ipsum has been the industry's standard
+                                                    dummy
+                                                    text ever since the 1500...</p>
+                                                <div class="row pt-5">
+                                                    <div class="col-lg-6">
+                                                        <h5 class="card-title">Admin Account</h5>
+                                                        <button type="button" class="btn btn-secondary">Guest</button>
+                                                    </div>
+                                                    <div class="col-lg-6 text-end">
+                                                        <p class="card-text"><i class="fa-regular fa-clock px-1"></i>13
+                                                            February 2023</p>
+                                                        <i class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card d-block w-100 mb-3">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="img/88.png" class="img-fluid rounded" alt="...">
+                                        </div>
+                                        <div class="col-md-8 pt-5">
+                                            <div class="card-body">
+                                                <p class="card-text">Lorem Ipsum is simply dummy text of the
+                                                    printing
+                                                    and
+                                                    typesetting industry. Lorem Ipsum has been the industry's standard
+                                                    dummy
+                                                    text ever since the 1500...</p>
+                                                <div class="row pt-5">
+                                                    <div class="col-lg-6">
+                                                        <h5 class="card-title">Admin Account</h5>
+                                                        <button type="button" class="btn btn-secondary">Guest</button>
+                                                    </div>
+                                                    <div class="col-lg-6 text-end">
+                                                        <p class="card-text"><i class="fa-regular fa-clock px-1"></i>13
+                                                            February 2023</p>
+                                                        <i class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-outline-light mt-3 mb-3">Load More</button>
+            </section>
+            <!-- Third cards -->
+            <section class="container mt-5 text-center">
+                <p class="text-primary">Pricing Plane</p>
+                <h4>Chose Your Plan</h4>
+                <div class="row pt-3">
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="card text-center mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Basic</h5>
+                                <p class="text-card text-bg-primary">$500 <br> Per Month</p>
+                                <p class="card-text">Android Application ios Application UX/UI Designs Wordpress Develop
+                                    PSD
+                                    to HTML Digital Marketing
+                                </p>
+                                <a href="#" class="btn btn-primary btn-lg">Start Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="card text-center mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Standard</h5>
+                                <p class="text-card text-bg-primary">$500 <br> Per Month</p>
+                                <p class="card-text">Android Application ios Application UX/UI Designs Wordpress Develop
+                                    PSD
+                                    to HTML Digital Marketing
+                                </p>
+                                <a href="#" class="btn btn-primary btn-lg">Start Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="card text-center mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Regular</h5>
+                                <p class="text-card text-bg-primary">$700 <br> Per Month</p>
+                                <p class="card-text">Android Application ios Application UX/UI Designs Wordpress Develop
+                                    PSD
+                                    to HTML Digital Marketing
+                                </p>
+                                <a href="#" class="btn btn-primary btn-lg">Start Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="card text-center mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Premium</h5>
+                                <p class="card-text text-bg-primary">$999 <br> Per Month</p>
+                                <p class="card-text">Android Application ios Application UX/UI Designs Wordpress Develop
+                                    PSD
+                                    to HTML Digital Marketing
+                                </p>
+                                <a href="#" class="btn btn-primary btn-lg">Start Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- Before footer -->
+        <section class="container text-center mx-auto mt-5">
+            <p class="text-primary">Get In Touch</p>
+            <h3 class="pb-3">Connect Is Made Just For You</h3>
+            <div class="input-group mb-3">
+                <input type="mail" class="form-control" placeholder="Enter email address"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-primary" type="button" id="button-addon2">Suscribe</button>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="container-fluid mt-5 text-center bg-secondary-subtle">
+            <div class="pb-3 pt-3">
+                <a href="#">FAQ</a>
+                <a href="#">Terms</a>
+                <a href="#">Changelog</a>
+            </div>
+            <i class="fa-brands fa-facebook mx-2"></i><i class="fa-brands fa-twitter mx-2"></i><i
+                class="fa-brands fa-linkedin mx-2"></i><i class="fa-brands fa-youtube mx-2"></i><i
+                class="fa-brands fa-instagram mx-2"></i>
+            <p class="pt-3">Made by <a href="#" class="text-primary">Tatwerat</a> © 2020 AH Tickets Pty Ltd.</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>

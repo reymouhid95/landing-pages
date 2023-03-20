@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+}
+
+#Logo{
+    height: 24px;
+    width: 30px;
+}
+
+li{
+    font-size: large;
+}
+
+li:hover{
+    background-color:lightslategray;
+}
+
+.card-in:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+    color: blue;
+}
+
+.card-on:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+.ion{
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+    background-color:lightsteelblue;
+    color: white;
+}
+
+.ion:hover{
+    border-radius: 5px;
+}
+
+ion-icon{
+    font-size: 64px;
+
+}
+
+.fil:hover{
+    background-color: silver;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.small{
+    font-size: small;
+}
